@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center border-bottom">
+                <h2>Panel de gestión</h2>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <h2>Añadir concierto</h2>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-2">
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="ubicacion">Ubicacion</label>
+                            <input type="text" name="ubicacion" class="form-control" id="ubicacion"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion">Dirección</label>
+                            <input type="text" name="direccion" class="form-control" id="direccion">
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad">Ciudad</label>
+                            <input type="text" name="ciudad" class="form-control" id="ciudad" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-12">
+                            <h3>Fecha</h3>
+                        </div>
+                        <div class="form-group">
+                            <label for="dia">Dia</label>
+                            <input type="number" name="dia" class="form-control" id="dia" aria-describedby="emailHelp">
+    
+                            <label for="mes">Mes</label>
+                            <select id="mes" name="mes" class="form-control">
+                                <option selected hidden>Mes</option>
+                                <option value="Ene">Enero</option>
+                                <option value="Feb">Febrero</option>
+                                <option value="Mar">Marzo</option>
+                                <option value="Abr">Abril</option>
+                                <option value="May">Mayo</option>
+                                <option value="Jun">Junio</option>
+                                <option value="Jul">Julio</option>
+                                <option value="Ago">Agosto</option>
+                                <option value="Sep">Septiembre</option>
+                                <option value="Oct">Octubre</option>
+                                <option value="Nov">Noviembre</option>
+                                <option value="Dic">Diciembre</option>
+                            </select>
+    
+                            <label for="anyo">Año</label>
+                            <input type="number" name="anyo" class="form-control" id="anyo" aria-describedby="emailHelp">
+                        </div>
+    
+    
+                    </form>
+                    <button id="enviar" class="btn btn-outline-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mensajes || Conciertos -->
+
+    <div class="container border-top mt-5">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <button id="conciertos" class="btn btn-outline-primary">Conciertos</button>
+                <button id="mensajes" class="btn btn-outline-primary">Mensajes</button>
+            </div>
+            <div id="body"  class="col-12">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+    <script src="./scripts/panelGestion.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

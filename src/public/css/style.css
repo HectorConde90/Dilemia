@@ -1,0 +1,131 @@
+@font-face{
+	font-family: titulo;
+	src: url('../fuente/NewRocker-Regular.ttf');
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+}
+body{
+    background-color: black;
+}
+
+
+
+
+/* Clases */
+
+.head{
+    background-color:black;
+}
+
+.logo{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-family: titulo;
+    color: red !important;
+    
+}
+
+.nav-bots{
+    
+    letter-spacing: 3px;
+    padding: 10px;
+    color: goldenrod !important;
+    font-weight: bold;
+    
+
+}
+
+.nav-bots a:hover{
+    color: rgb(175, 129, 13) !important ;
+    
+    
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.titulo{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.side-card{
+    background-color: goldenrod;
+    border-radius: 5px 0 0 5px ;
+}
+
+.container-card{
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.container-card div{
+    font-family: titulo;
+}
+
+.side-card-color{
+    color: black;
+}
+
+.container-card:hover{
+    box-shadow: 2px 2px 5px goldenrod;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.see-more{
+    font-weight: bold;
+}
+
+.see-more:hover{
+    color: black !important;
+}
+
+
+.footer{
+    background-color: goldenrod;
+    height: 300px;
+    width: 100%;
+}
+
+
+.siguenos{
+    color: black;
+    border-bottom: solid 1px black;
+    border
+}
+.redes{
+    color: black ;
+    font-size: 30px;
+}
+
+.derechos{
+    border-top: 1px solid black;
+}
+
+.derechos p{
+    color: black !important;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+.text-area{
+    resize: none;
+}
