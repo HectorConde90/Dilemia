@@ -12,6 +12,9 @@ class ConcertDAO {
        return new Concert(concert).save();
    }
 
+    delete(id) {
+        return Concert.deleteOne({ _id: id });
+    }
 
 }
 

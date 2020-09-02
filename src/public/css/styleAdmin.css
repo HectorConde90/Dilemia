@@ -1,0 +1,26 @@
+
+.side-card{
+    background-color: white;
+    border-radius: 5px 0 0 5px ;
+}
+
+.container-card{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container-card div{
+    font-family: titulo;
+}
+
+.side-card-color{
+    color: black;
+}
+
+
+.justify{
+    text-align: justify;
+}
+
+
+
